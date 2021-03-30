@@ -1,5 +1,12 @@
 # Environmental sensor shield for the TTGO TBeam board
 
+
+This project is OPEN HARDWARE
+
+[![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
+
+## Description
+
 This is a shield for the ESP32 board TTGO TBeam v1.1 (with the AXP192), made specifically to connect some evironmental sensors, namely:
 
 - the SPS30 particulate matter sensor <img src="https://cdn.sos.sk/imagecache/product-detail/15/2c/f8cca476/sps30-2.jpg" width="200" height="200">,
