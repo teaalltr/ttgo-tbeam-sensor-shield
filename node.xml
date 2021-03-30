@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\savo9\OneDrive\Desktop\bozza-20210213T180905Z-001\bozza\node.sch</source>
+    <date>14/02/2021 17:56:05</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>T-Beam sensor node shield</title>
+        <company/>
+        <rev>0.1</rev>
+        <date/>
+        <source>node.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J5">
+      <value>LPPYRA03AV Screw Terminal</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1D57F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA4C9AD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA694F0</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F89C554</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Power</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F980452</tstamp>
+    </comp>
+    <comp ref="PS2">
+      <value>DCDC 3V3-5</value>
+      <datasheet>https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf</datasheet>
+      <libsource lib="node-rescue" part="generic_DCDC-dcdc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C5279</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>DCDC 3V3-12</value>
+      <datasheet>https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf</datasheet>
+      <libsource lib="node-rescue" part="generic_DCDC-dcdc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E0756</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAFB529</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAFB536</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>UART</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BF79D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8F44A5</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>T-Beam right socket </value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x13_Female" description="Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B0EF2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>T-Beam left socket </value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x13_Female" description="Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8AF6BB</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>SEN0170 Screw Terminal</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAFB511</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE97780</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE98AB6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>BME680 socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B6779</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>SPS30 connector</value>
+      <footprint>connettore-jst:SHDR5W50P0X150_1X5_900X350X450P</footprint>
+      <datasheet>http://docs-emea.rs-online.com/webdocs/13f2/0900766b813f2e95.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector,Multipole,PCB use,B5B-ZR (LF)( JST ZH Series, 1.5mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 1A</field>
+        <field name="Height">4.5</field>
+        <field name="Manufacturer_Name">JST (JAPAN SOLDERLESS TERMINALS)</field>
+        <field name="Manufacturer_Part_Number">B5B-ZR (LF)(SN)</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+      </fields>
+      <libsource lib="connettore-jst" part="B5B-ZR__LF__SN_" description="Connector,Multipole,PCB use,B5B-ZR (LF)( JST ZH Series, 1.5mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 1A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6029447D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x13_Female">
+      <description>Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x13_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connettore-jst" part="B5B-ZR__LF__SN_">
+      <description>Connector,Multipole,PCB use,B5B-ZR (LF)( JST ZH Series, 1.5mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 1A</description>
+      <docs>http://docs-emea.rs-online.com/webdocs/13f2/0900766b813f2e95.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B5B-ZR__LF__SN_</field>
+        <field name="Footprint">SHDR5W50P0X150_1X5_900X350X450P</field>
+        <field name="Datasheet">http://docs-emea.rs-online.com/webdocs/13f2/0900766b813f2e95.pdf</field>
+        <field name="Description">Connector,Multipole,PCB use,B5B-ZR (LF)( JST ZH Series, 1.5mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 1A</field>
+        <field name="Height">4.5</field>
+        <field name="Manufacturer_Name">JST (JAPAN SOLDERLESS TERMINALS)</field>
+        <field name="Manufacturer_Part_Number">B5B-ZR (LF)(SN)</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="node-rescue" part="generic_DCDC-dcdc">
+      <footprints>
+        <fp>Converter*DCDC*Murata*MEE3SxxxxSC*THT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">generic_DCDC-dcdc</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_Murata_MEE3SxxxxSC_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-Vin" type="power_in"/>
+        <pin num="2" name="+Vin" type="power_in"/>
+        <pin num="3" name="-Vout" type="power_out"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="connettore-jst">
+      <uri>C:\Users\savo9\OneDrive\Desktop\bozza-20210213T180905Z-001\bozza/KiCad/B5B-ZR__LF__SN_.lib</uri>
+    </library>
+    <library logical="node-rescue">
+      <uri>C:\Users\savo9\OneDrive\Desktop\bozza-20210213T180905Z-001\bozza/node-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(PS1-Pad2)">
+      <node ref="PS2" pin="2"/>
+      <node ref="PS1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="6" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="7" name="ADCPYRA">
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="12"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="9" name="Net-(J4-Pad13)">
+      <node ref="J4" pin="13"/>
+    </net>
+    <net code="10" name="Net-(J4-Pad12)">
+      <node ref="J4" pin="12"/>
+    </net>
+    <net code="11" name="Net-(J4-Pad11)">
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="19" name="Net-(J5-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="21" name="Earth">
+      <node ref="J5" pin="4"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="R4" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="R9" pin="2"/>
+      <node ref="PS2" pin="3"/>
+      <node ref="PS2" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="PS1" pin="1"/>
+      <node ref="PS1" pin="3"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="8"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="23" name="5VDC">
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="24" name="12VDC">
+      <node ref="J5" pin="3"/>
+      <node ref="PS1" pin="4"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="25" name="3V3">
+      <node ref="J8" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J1" pin="13"/>
+      <node ref="R2" pin="1"/>
+      <node ref="PS2" pin="4"/>
+    </net>
+    <net code="30" name="/GPIO15">
+      <node ref="J1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="31" name="/SDA">
+      <node ref="R2" pin="2"/>
+      <node ref="J4" pin="10"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="32" name="/SCL">
+      <node ref="J4" pin="9"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="35" name="/RX">
+      <node ref="J4" pin="2"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="36" name="/TX">
+      <node ref="J7" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+  </nets>
+</export>

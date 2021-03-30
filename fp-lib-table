@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /home/marco/Scaricati/kicaddigikey/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr "")(disabled))
+  (lib (name connettore-jst)(type KiCad)(uri ${KIPRJMOD}/KiCad/SHDR5W50P0X150_1X5_900X350X450P.kicad_mod)(options "")(descr "")(disabled))
+)

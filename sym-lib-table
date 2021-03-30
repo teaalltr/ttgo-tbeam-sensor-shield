@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name node-rescue)(type Legacy)(uri ${KIPRJMOD}/node-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name connettore-jst)(type Legacy)(uri ${KIPRJMOD}/KiCad/B5B-ZR__LF__SN_.lib)(options "")(descr ""))
+)

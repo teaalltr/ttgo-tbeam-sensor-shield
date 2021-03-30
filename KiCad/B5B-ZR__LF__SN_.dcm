@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B5B-ZR__LF__SN_
+D Connector,Multipole,PCB use,B5B-ZR (LF)( JST ZH Series, 1.5mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 1A
+K
+F http://docs-emea.rs-online.com/webdocs/13f2/0900766b813f2e95.pdf
+$ENDCMP
+#
+#End Doc Library
